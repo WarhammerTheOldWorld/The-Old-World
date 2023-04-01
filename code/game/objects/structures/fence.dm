@@ -11,7 +11,7 @@
 	desc = "A fence to keep farm animals in, and brigands out."
 	density = TRUE
 	anchored = TRUE
-	icon = 'icons/obj/structures/fence.dmi'
+	icon = 'icons/obj/structures/wattlefence.dmi'
 	icon_state = "straight"
 	var/cuttable = TRUE
 	var/hole_size= NO_HOLE
