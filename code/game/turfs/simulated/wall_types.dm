@@ -179,6 +179,7 @@
 	mineral = "wood"
 	integrity = 450
 
+
 /turf/simulated/wall/castle
 	name = "Stone brick wall"
 	desc = "A formidable wall made entirely of stone bricks. Capable of being the battlements of a castle."
