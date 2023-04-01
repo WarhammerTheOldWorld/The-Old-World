@@ -332,7 +332,7 @@
 
 /obj/structure/table/update_icon()
 	if(flipped != 1)
-		icon_state = "blank"
+		icon_state = "solid_preview"
 		overlays.Cut()
 
 		var/image/I

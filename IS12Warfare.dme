@@ -976,6 +976,7 @@
 #include "code\game\objects\structures\door_assembly.dm"
 #include "code\game\objects\structures\electricchair.dm"
 #include "code\game\objects\structures\extinguisher.dm"
+#include "code\game\objects\structures\fence.dm"
 #include "code\game\objects\structures\fireaxe_cabinet.dm"
 #include "code\game\objects\structures\fitness.dm"
 #include "code\game\objects\structures\flora.dm"

@@ -8,7 +8,7 @@
 
 /obj/structure/fence
 	name = "fence"
-	desc = "A chain link fence. Not as effective as a wall, but generally it keeps people out."
+	desc = "A fence to keep farm animals in, and brigands out."
 	density = TRUE
 	anchored = TRUE
 	icon = 'icons/obj/structures/wattlefence.dmi'
@@ -17,7 +17,7 @@
 	var/hole_size= NO_HOLE
 	var/invulnerable = FALSE
 	var/hole_visuals = TRUE //Whether the fence piece has visuals for being cut. Used in update_cut_status()
-
+/* readd cut fences at a later date when we have sprites
 /obj/structure/fence/Initialize()
 	. = ..()
 
@@ -30,21 +30,21 @@
 			. += "There is a large hole in \the [src]."
 		if(LARGE_HOLE)
 			. += "\The [src] has been completely cut through."
+*/
 
-/obj/structure/fence/end
-	icon_state = "end"
-	cuttable = TRUE
-	hole_visuals = FALSE
+/obj/structure/fence/wattle
+	icon_state = "straight"
 
-/obj/structure/fence/corner
+/obj/structure/fence/wattle/corner
 	icon_state = "corner"
-	cuttable = TRUE
-	hole_visuals = FALSE
 
-/obj/structure/fence/post
-	icon_state = "post"
-	cuttable = FALSE
+/obj/structure/fence/wattle/small
+	icon_state = "small"
 
+
+
+
+/*
 /obj/structure/fence/cut/medium
 	icon_state = "straight_cut2"
 	hole_size = MEDIUM_HOLE
@@ -53,7 +53,7 @@
 	icon_state = "straight_cut3"
 	hole_size = LARGE_HOLE
 
-/*
+old fallout shit
 /obj/structure/fence/attackby(obj/item/W, mob/user)
 	if(istype(W, /obj/item/wirecutters))
 		if(!cuttable)
