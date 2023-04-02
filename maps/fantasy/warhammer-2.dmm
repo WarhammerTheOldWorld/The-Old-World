@@ -138,7 +138,7 @@
 "kKx" = (/obj/effect/floor_decal/spline/darkgrass{dir = 8},/turf/simulated/floor/holofloor/grass,/area/cadiaoutpost/oa/caves)
 "kLp" = (/obj/structure/flora/ausbushes/grassybush,/obj/effect/decal/cleanable/blood/drip{dir = 1},/turf/simulated/floor/holofloor/grass,/area/cadiaoutpost/oa/caves)
 "kOr" = (/obj/effect/floor_decal/spline/darkgrass{dir = 4},/turf/simulated/floor/holofloor/grass,/area/cadiaoutpost/oa/caves)
-"kPp" = (/turf/simulated/floor/new_wood/seven,/area/cadiaoutpost/oa/caves)
+"kPp" = (/area/cadiaoutpost/oa/caves)
 "kTM" = (/obj/structure/flora/ausbushes/sparsegrass,/obj/effect/floor_decal/spline/grass,/turf/simulated/floor/holofloor/darkgrass,/area/cadiaoutpost/oa/caves)
 "kVA" = (/obj/structure/curtain/open/bed{name = "brown curtain"},/turf/simulated/floor/wood{color = "grey"},/area/cadiaoutpost/oa/caves)
 "kWP" = (/obj/effect/landmark{name = "Observer-Start"},/turf/simulated/floor/tiled/stone,/area/cadiaoutpost/oa/caves)

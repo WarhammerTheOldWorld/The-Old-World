@@ -253,6 +253,7 @@
 	desc = "This mud looks tougher than most other muds."
 	icon_state = "mud"
 	movement_delay = 0.1
+	has_light = FALSE
 
 /turf/simulated/floor/dirty/indestructable/mud/New()
 	dir = pick(GLOB.alldirs)
