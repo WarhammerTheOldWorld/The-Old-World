@@ -316,6 +316,11 @@ var/list/floor_decals = list()
 	icon = 'icons/turf/flooring/grass.dmi'
 	icon_state = "grass_edges"
 
+/obj/effect/floor_decal/spline/darkgrass
+	name = "Lush grass edge"
+	icon = 'icons/turf/flooring/darkgrass.dmi'
+	icon_state = "grass_edges"
+
 /obj/effect/floor_decal/spline/plain/diagonal
 	icon_state = "spline_plain_diagonal"
 
