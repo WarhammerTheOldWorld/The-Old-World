@@ -49,8 +49,19 @@ var/list/floor_decals = list()
 
 /obj/effect/floor_decal/path/cobble
 	name = "Cobblestone Path"
+	icon_state = "cobblepath0"
 
+/obj/effect/floor_decal/path/cobble/center
+	name = "Cobblestone Path"
+	icon_state = "cobblecenter"
 
+/obj/effect/floor_decal/path/cobble/corner
+	name = "Cobblestone Path"
+	icon_state = "cobblecorner"
+
+/obj/effect/floor_decal/path/cobble/fork
+	name = "Cobblestone Path"
+	icon_state = "cobblefork"
 
 
 /obj/effect/floor_decal/carpet
