@@ -444,11 +444,11 @@
 	anchored = TRUE
 	plane = EFFECTS_BELOW_LIGHTING_PLANE
 	mouse_opacity = 0
-
+/* environmental light bad mkay
 	New()
 		..()
 		set_light(3, 3, "#28284f")
-
+*/
 /obj/structure/flora/jungle/trees
 	name = "jungle tree"
 	icon = 'icons/obj/flora/jungletrees.dmi'
