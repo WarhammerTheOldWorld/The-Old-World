@@ -45,8 +45,12 @@ var/list/floor_decals = list()
 
 /obj/effect/floor_decal/path
 	name = "default path"
+	icon = 'icons/turf/flooring/path.dmi'
 
 /obj/effect/floor_decal/path/cobble
+	name = "Cobblestone Path"
+
+
 
 
 /obj/effect/floor_decal/carpet
