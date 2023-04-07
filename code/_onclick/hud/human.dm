@@ -22,7 +22,7 @@
 
 
 	using = new /obj/screen()
-	using.dir = SOUTH
+	using.dir = EAST
 	using.icon = ui_style
 	using.icon_state = "cult_hud"
 	using.screen_loc = "SOUTH-2,1"
@@ -46,7 +46,7 @@
 	adding += using
 
 	using = new /obj/screen()
-	using.dir = EAST
+	using.dir = SOUTH
 	using.icon = ui_style
 	using.icon_state = "cult_hud"
 	using.screen_loc = "WEST,NORTH"

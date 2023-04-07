@@ -28,13 +28,13 @@
 //Lower center, persistant menu
 #define ui_sstore1 "SOUTH-1,14"
 #define ui_id "NORTH7,7"
-#define ui_belt "SOUTH-2,3"
+#define ui_belt "SOUTH-2,6"
 #define ui_back "SOUTH-1,7"
-#define ui_rhand "SOUTH+2.5,2"
-#define ui_lhand "SOUTH-1.5,4"
+#define ui_rhand "SOUTH-1.5,7"
+#define ui_lhand "SOUTH-1.5,9"
 #define ui_swaphand2 "8:16,2:5"
-#define ui_storage1 "SOUTH-2,4"
-#define ui_storage2 "SOUTH-2,5"
+#define ui_storage1 "SOUTH-1.5,6"
+#define ui_storage2 "SOUTH-1.5,10"
 
 #define ui_alien_head "CENTER-3:12,SOUTH:5"		//aliens
 #define ui_alien_oclothing "CENTER-2:14,SOUTH:5"//aliens
@@ -104,9 +104,9 @@
 #define ui_alien_oxygen "14:28,11:25"
 
 //Middle right (status indicators)
-#define ui_stamina "EAST+1, NORTH-14"
+#define ui_stamina "SOUTH-1.75,8"
 #define ui_temp "EAST+1, NORTH-12"
-#define ui_health "EAST+1, NORTH-13"
+#define ui_health "EAST, NORTH-1"
 #define ui_happiness "EAST+1, NORTH-4"
 #define ui_nutrition "EAST+1, NORTH-10"
 #define ui_internal "EAST+1, NORTH-3"
@@ -117,9 +117,9 @@
 //Pop-up inventory
 #define ui_shoes "SOUTH-1,9"
 
-#define ui_iclothing "SOUTH-2,2"
+#define ui_iclothing "SOUTH-2,3"
 #define ui_oclothing "SOUTH-1,3"
-#define ui_gloves "SOUTH-1,8"
+#define ui_gloves "SOUTH-2,4"
 
 #define ui_glasses "SOUTH-1,13"
 #define ui_mask "SOUTH-1,5"
