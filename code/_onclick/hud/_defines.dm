@@ -30,8 +30,8 @@
 #define ui_id "NORTH7,7"
 #define ui_belt "SOUTH-2,3"
 #define ui_back "SOUTH-1,7"
-#define ui_rhand "SOUTH-1,2"
-#define ui_lhand "SOUTH-1,4"
+#define ui_rhand "SOUTH+2.5,2"
+#define ui_lhand "SOUTH-1.5,4"
 #define ui_swaphand2 "8:16,2:5"
 #define ui_storage1 "SOUTH-2,4"
 #define ui_storage2 "SOUTH-2,5"
@@ -52,12 +52,12 @@
 #define ui_pull "SOUTH-2,10"
 #define ui_jmp_kck "SOUTH-2, 9"
 #define ui_atk "SOUTH-2, 14"//atk_intents
-#define ui_resist "EAST+1,SOUTH-2"
+#define ui_resist "EAST-9,SOUTH-2"
 #define ui_acti "SOUTH-2,9"
 #define ui_combat "SOUTH-2,12"//COMBAT MODE!
 #define ui_combat_intent "SOUTH-2, 8"
 #define ui_movi "EAST,SOUTH-2"
-#define ui_zonesel "EAST+1, NORTH-2"
+#define ui_zonesel "EAST-5, NORTH-2"
 #define ui_acti_alt "SOUTH-2,9" //alternative intent switcher for when the interface is hidden (F12)
 
 

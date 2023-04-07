@@ -25,7 +25,31 @@
 	using.dir = SOUTH
 	using.icon = ui_style
 	using.icon_state = "cult_hud"
-	using.screen_loc = "SOUTH-1,1"
+	using.screen_loc = "SOUTH-2,1"
+	using.layer = UNDER_HUD_LAYER
+	adding += using
+
+	using = new /obj/screen()
+	using.dir = WEST
+	using.icon = ui_style
+	using.icon_state = "cult_hud"
+	using.screen_loc = "EAST+1,NORTH"
+	using.layer = UNDER_HUD_LAYER
+	adding += using
+
+	using = new /obj/screen()
+	using.dir = NORTH
+	using.icon = ui_style
+	using.icon_state = "cult_hud"
+	using.screen_loc = "EAST+1, SOUTH-2"
+	using.layer = UNDER_HUD_LAYER
+	adding += using
+
+	using = new /obj/screen()
+	using.dir = EAST
+	using.icon = ui_style
+	using.icon_state = "cult_hud"
+	using.screen_loc = "WEST,NORTH"
 	using.layer = UNDER_HUD_LAYER
 	adding += using
 /*
