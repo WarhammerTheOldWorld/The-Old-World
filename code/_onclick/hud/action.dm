@@ -192,9 +192,9 @@
 /datum/hud/proc/ButtonNumberToScreenCoords(var/number) // TODO : Make this zero-indexed for readabilty
 	var/row = round((number-1)/AB_MAX_COLUMNS)
 	var/col = ((number - 1)%(AB_MAX_COLUMNS)) + 1
-	var/coord_col = "+[col-1]"
+	var/coord_col = "+[col+1.5]"
 	var/coord_col_offset = AB_WEST_OFFSET+2*col
-	var/coord_row = "[-1 - row]"
+	var/coord_row = "[-1.25 - row]"
 	var/coord_row_offset = AB_NORTH_OFFSET
 	return "WEST[coord_col]:[coord_col_offset],NORTH[coord_row]:[coord_row_offset]"
 
