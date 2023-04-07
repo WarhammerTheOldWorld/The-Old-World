@@ -237,7 +237,7 @@
 
 	if(nutrition < 100)
 		msg += "[T.He] [T.is] severely malnourished.\n"
-	else if(nutrition >= 500)
+	else if(nutrition >= 400)
 		msg += "[T.He] [T.is] quite chubby.\n"
 
 
