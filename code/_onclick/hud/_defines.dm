@@ -23,15 +23,15 @@
 #define ui_action_slot5 "5:14,14:26"
 
 //Lower left, persistant menu
-#define ui_inventory "SOUTH-1,4"
+#define ui_inventory "SOUTH-1,5"
 
 //Lower center, persistant menu
-#define ui_sstore1 "SOUTH-1,13"
+#define ui_sstore1 "SOUTH-1,14"
 #define ui_id "SOUTH-2,1"
 #define ui_belt "SOUTH-2,3"
-#define ui_back "SOUTH-1,6"
-#define ui_rhand "SOUTH-1,1"
-#define ui_lhand "SOUTH-1,3"
+#define ui_back "SOUTH-1,7"
+#define ui_rhand "SOUTH-1,2"
+#define ui_lhand "SOUTH-1,4"
 #define ui_swaphand2 "8:16,2:5"
 #define ui_storage1 "SOUTH-2,4"
 #define ui_storage2 "SOUTH-2,5"
@@ -115,19 +115,19 @@
 #define ui_alien_health "EAST-1:28,CENTER-1:13" //aliens have the health display where humans have the pressure damage indicator.
 
 //Pop-up inventory
-#define ui_shoes "SOUTH-1,7"
+#define ui_shoes "SOUTH-1,9"
 
 #define ui_iclothing "SOUTH-2,2"
-#define ui_oclothing "SOUTH-1,2"
+#define ui_oclothing "SOUTH-1,3"
 #define ui_gloves "SOUTH-1,8"
 
-#define ui_glasses "SOUTH-1,12"
-#define ui_mask "SOUTH-1,4"
-#define ui_l_ear "SOUTH-1,10"
-#define ui_r_ear "SOUTH-1,11"
-#define ui_neck "SOUTH-1,9"
+#define ui_glasses "SOUTH-1,13"
+#define ui_mask "SOUTH-1,5"
+#define ui_l_ear "SOUTH-1,11"
+#define ui_r_ear "SOUTH-1,12"
+#define ui_neck "SOUTH-1,10"
 
-#define ui_head "SOUTH-1,5"
+#define ui_head "SOUTH-1,6"
 
 //Attack intent
 #define ui_att_int "SOUTH-2,9"
