@@ -27,7 +27,7 @@
 
 //Lower center, persistant menu
 #define ui_sstore1 "SOUTH-1,14"
-#define ui_id "SOUTH-2,1"
+#define ui_id "NORTH7,7"
 #define ui_belt "SOUTH-2,3"
 #define ui_back "SOUTH-1,7"
 #define ui_rhand "SOUTH-1,2"
@@ -92,12 +92,12 @@
 #define ui_gun_select "10, SOUTH-1"
 
 //Upper-middle right (damage indicators)
-#define ui_toxin "EAST+1, NORTH-8"//6
-#define ui_fire "EAST+1, NORTH-9"//8
-#define ui_oxygen "EAST+1, NORTH-7"//NORTH-3"
-#define ui_pressure "EAST+1, NORTH-11"//7
-#define ui_surrender "EAST+1, NORTH-5"
-#define ui_fixeye "EAST+1, NORTH-6"
+#define ui_toxin "NORTH7,7"//6 // "EAST+1, NORTH-8"//6
+#define ui_fire "NORTH7,7"//8 // "EAST+1, NORTH-9"//8
+#define ui_oxygen "NORTH7,7"//NORTH-3" // "EAST+1, NORTH-7"//NORTH-3"
+#define ui_pressure "NORTH7,7"//7 //  "EAST+1, NORTH-11"//7
+#define ui_surrender "NORTH7,7" //"EAST+1, NORTH-5"
+#define ui_fixeye "NORTH7,7" // "EAST+1, NORTH-6"
 
 #define ui_alien_toxin "14:28,13:25"
 #define ui_alien_fire "14:28,12:25"
@@ -123,8 +123,8 @@
 
 #define ui_glasses "SOUTH-1,13"
 #define ui_mask "SOUTH-1,5"
-#define ui_l_ear "SOUTH-1,11"
-#define ui_r_ear "SOUTH-1,12"
+#define ui_l_ear "NORTH7,7"
+#define ui_r_ear "NORTH7,7"
 #define ui_neck "SOUTH-1,10"
 
 #define ui_head "SOUTH-1,6"
