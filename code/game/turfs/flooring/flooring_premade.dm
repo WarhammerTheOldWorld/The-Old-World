@@ -98,9 +98,17 @@
 
 /turf/simulated/floor/stone
 	name = "stone floor"
+	desc = "Rough hewn stone"
 	icon = 'icons/turf/flooring/stonefloor.dmi'
 	icon_state = "MAIN"
 	initial_flooring = /decl/flooring/stone
+
+/turf/simulated/floor/stone/border
+	name = "stone floor"
+	desc = "Rough hewn stone"
+	icon = 'icons/turf/flooring/stonefloor.dmi'
+	icon_state = "Border"
+	initial_flooring = /decl/flooring/stone/border
 
 /turf/simulated/floor/stone/chapel
 	name = "monastic stone floor"
@@ -109,6 +117,11 @@
 /turf/simulated/floor/stone/New()
 	icon_state = pick("main","1","2","3","extra","extra1","extra2","extra3")
 	..()
+
+/turf/simulated/floor/castle
+	name = "Castle floor"
+	icon = 'icons/turf/brickstone.dmi'
+	icon_state = "brickstone_floor"
 
 /turf/simulated/floor/grass
 	name = "grass patch"

@@ -187,12 +187,32 @@ var/list/flooring_types
 
 /decl/flooring/stone
 	name = "stone floor"
+	desc = "Rough hewn stone"
+	icon = 'icons/turf/flooring/stonefloor.dmi'
+	icon_base = "MAIN"
+	has_damage_range = 6
+	descriptor = "cobble"
+	flags = TURF_CAN_BREAK | TURF_IS_FRAGILE |TURF_ACID_IMMUNE|TURF_HAS_CORNERS|TURF_REMOVE_SHOVEL
+
+/decl/flooring/stone/border
+	name = "stone floor"
+	desc = "Rough hewn stone"
+	icon = 'icons/turf/flooring/stonefloor.dmi'
+	icon_base = "Border"
+	has_damage_range = 6
+	descriptor = "cobble"
+	flags = TURF_CAN_BREAK | TURF_IS_FRAGILE |TURF_ACID_IMMUNE|TURF_HAS_CORNERS|TURF_REMOVE_SHOVEL
+
+/decl/flooring/castle
+	name = "castle floor"
 	desc = "Cobblestone flooring"
 	icon = 'icons/turf/flooring/stonefloor.dmi'
 	icon_base = "MAIN"
 	has_damage_range = 6
 	descriptor = "cobble"
 	flags = TURF_CAN_BREAK | TURF_IS_FRAGILE |TURF_ACID_IMMUNE|TURF_HAS_CORNERS|TURF_REMOVE_SHOVEL
+
+
 /*
 /decl/flooring/stone/one
 	icon_base = "extra"
