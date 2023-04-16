@@ -86,7 +86,7 @@
 			if(locate(/obj/structure/lattice, T) || locate(/obj/structure/catwalk, T))
 				dir_sum += direction
 			else
-				if(!(istype(get_step(src, direction), /turf/simulated/shuttle/wall)) && !(istype(get_step(src, direction), /turf/simulated/floor/shuttle)) && !(istype(get_step(src, direction), /turf/simulated/open)))
+				if(!(istype(get_step(src, direction), /turf/simulated/shuttle/wall)) && !(istype(get_step(src, direction), /turf/simulated/floor)) && !(istype(get_step(src, direction), /turf/simulated/open)))
 					dir_sum += direction
 
 		icon_state = "lattice[dir_sum]"

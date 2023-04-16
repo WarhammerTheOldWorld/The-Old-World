@@ -1,3 +1,4 @@
+/*
 /turf/simulated/floor/shuttle
 	name = "floor"
 	icon = 'icons/turf/shuttle.dmi'
@@ -29,3 +30,4 @@
 /turf/simulated/floor/shuttle/black
 	icon_state = "floor7"
 	initial_flooring = /decl/flooring/reinforced/shuttle/black
+*/

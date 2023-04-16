@@ -96,7 +96,7 @@
 	icon_state = "snow"
 
 /turf/simulated/floor/dirty/indestructable/snow/New()
-	icon_state = pick("snow[rand(1,12)]","snow0")
+	icon_state ="snow[rand(0,12)]"
 	..()
 
 /turf/simulated/floor/dirty/New()

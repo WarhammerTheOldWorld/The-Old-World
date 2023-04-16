@@ -100,8 +100,12 @@
 	name = "stone floor"
 	desc = "Rough hewn stone"
 	icon = 'icons/turf/flooring/stonefloor.dmi'
-	icon_state = "MAIN"
+	icon_state = "Stone"
 	initial_flooring = /decl/flooring/stone
+
+/turf/simulated/floor/stone/New()
+	icon_state ="Stone[rand(0,3)]"
+	..()
 
 /turf/simulated/floor/stone/border
 	name = "stone floor"
@@ -113,10 +117,6 @@
 /turf/simulated/floor/stone/chapel
 	name = "monastic stone floor"
 	holy = 1
-
-/turf/simulated/floor/stone/New()
-	icon_state = pick("main","1","2","3","extra","extra1","extra2","extra3")
-	..()
 
 /turf/simulated/floor/castle
 	name = "Castle floor"
