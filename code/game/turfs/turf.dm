@@ -304,3 +304,15 @@ var/const/enterloopsanity = 100
 					I.pixel_x -= (world.icon_size)
 
 			overlays += I
+
+proc/GlobalWorldStartAutotile()
+    var state
+    for(var/turf/t)
+        if(!t.autotile){continue}
+        state = ((locate(type) in get_step(t,NORTH)) ? 1 : 0)\
+        + ((locate(type) in get_step(t,SOUTH)) ? 2 : 0)\
+        + ((locate(type) in get_step(t,EAST)) ? 4 : 0)\
+        + ((locate(type) in get_step(t,WEST)) ? 8 : 0)
+        t.icon_state = "[state]"
+
+turf/var/tmp/autotile = FALSE

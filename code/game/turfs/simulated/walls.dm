@@ -21,7 +21,7 @@
 	var/integrity = 650
 	var/construction_stage
 	var/hitsound = 'sound/weapons/Genhit.ogg'
-	var/floor_type = /turf/simulated/floor/plating //turf it leaves after destruction
+	var/floor_type = /turf/simulated/floor/dirty //turf it leaves after destruction
 
 
 /turf/simulated/wall/New(var/newloc)
@@ -174,7 +174,7 @@
 	if(!can_melt())
 		return
 
-	src.ChangeTurf(/turf/simulated/floor/plating)
+	src.ChangeTurf(/turf/simulated/floor/dirty)
 
 	var/turf/simulated/floor/F = src
 	if(!F)
