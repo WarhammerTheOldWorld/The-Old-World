@@ -1,10 +1,10 @@
 /datum/species/halfling
     name = SPECIES_HALFLING
-    name_plural = "Skaven"
+    name_plural = "Halfling"
     secondary_langs = list(LANGUAGE_TAU)
     name_language = null // Use the first-name last-name generator rather than a language scrambler
-    icobase = 'icons/mob/human_races/r_def_smeltrat.dmi'
-    deform = 'icons/mob/human_races/r_def_smeltrat.dmi'
+    icobase = 'icons/mob/human_races/r_halfling.dmi'
+    deform = 'icons/mob/human_races/r_halfling.dmi'
     damage_mask = 'icons/mob/human_races/masks/dam_mask_human.dmi'
     blood_mask = 'icons/mob/human_races/masks/blood_human.dmi'
     min_age = 18
@@ -23,7 +23,6 @@
         /datum/unarmed_attack/punch,
         /datum/unarmed_attack/bite,
         )
-    darksight = 100
 
 /datum/species/halfling/handle_post_spawn(var/mob/living/carbon/human/H)
 	H.age = rand(min_age,max_age)//Random age
@@ -31,11 +30,11 @@
 
 	return ..()
 /mob/living/carbon/human/halfling
-	var/new_halfing = SPECIES_HALFLING
+	var/new_halfling = SPECIES_HALFLING
 
-/mob/living/carbon/human/halfing/New(var/new_loc)
+/mob/living/carbon/human/halfling/New(var/new_loc)
 	h_style = "Bald"
-	..(new_loc, new_halfing)
+	..(new_loc, new_halfling)
 
 /mob/living/carbon/human/halfing
 	gender = MALE

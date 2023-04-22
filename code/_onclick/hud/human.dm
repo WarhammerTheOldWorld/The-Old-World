@@ -290,7 +290,7 @@
 		using.color = ui_color
 		using.alpha = ui_alpha
 		src.adding += using
-		*/
+
 
 		using = new /obj/screen/inventory()
 		using.name = "hand"
@@ -300,7 +300,7 @@
 		using.screen_loc = ui_swaphand1
 		src.swaphands_hud_object = using
 		src.adding += using
-
+*/
 	if(hud_data.has_resist)
 		using = new /obj/screen()
 		using.name = "resist"

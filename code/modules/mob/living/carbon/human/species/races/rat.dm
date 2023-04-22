@@ -3,8 +3,8 @@
     name_plural = "Skaven"
     secondary_langs = list(LANGUAGE_TAU)
     name_language = null // Use the first-name last-name generator rather than a language scrambler
-    icobase = 'icons/mob/human_races/r_def_smeltrat.dmi'
-    deform = 'icons/mob/human_races/r_def_smeltrat.dmi'
+    icobase = 'icons/mob/human_races/r_skaven.dmi'
+    deform = 'icons/mob/human_races/r_skaven.dmi'
     damage_mask = 'icons/mob/human_races/masks/dam_mask_human.dmi'
     blood_mask = 'icons/mob/human_races/masks/blood_human.dmi'
     min_age = 18
